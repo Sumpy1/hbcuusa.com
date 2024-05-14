@@ -1,5 +1,5 @@
 import React, { useEffect } from 'react';
-import Navbar from '../components/Navbar';
+import Map from '../components/Map';
 
 export default function Home() {
   useEffect(() => {
@@ -57,7 +57,7 @@ export default function Home() {
 
   return (
     <>
-        <Navbar />
+    <Map />
       <main className="flex-1 bg-gray-100 dark:bg-gray-800 p-8 font-body">
         <h1 className="text-2xl font-bold mb-4 dark:text-white">HBCU Universities Database</h1>
 
@@ -74,7 +74,7 @@ export default function Home() {
         </table>
       </main>
 
-      <footer className="bg-blue-800 dark:bg-gray-900 text-white py-4">
+      <footer className="bg-blue-800 dark:bg-gray-900 text-white py-4 mt-4">
         <div className="container mx-auto text-center">
           <p>&copy;2024 Copyright: All Rights Reserved by HBCUUSA.com</p>
         </div>

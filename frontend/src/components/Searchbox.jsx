@@ -1,10 +1,21 @@
-import React from 'react';
+import React, { useState } from 'react';
 
-const Searchbox = ({ onSearch }) => {
-  const handleSearch = () => {
-    onSearch(); // Call the onSearch function passed from the parent component
+const Searchbox = ({ onSearch, onMonthSelect }) => {
+  const [searchValue, setSearchValue] = useState('');
+  const [selectedMonth, setSelectedMonth] = useState('');
+
+  const handleSearchChange = (event) => {
+    const value = event.target.value;
+    setSearchValue(value);
+    onSearch(value);
   };
-  
+
+  const handleMonthSelect = (event) => {
+    const selectedMonth = event.target.value;
+    setSelectedMonth(selectedMonth);
+    onMonthSelect(selectedMonth);
+  };
+
   return (
     <main className="flex-1 bg-gray-100 dark:bg-gray-800 p-8 font-body">
       <div className="container mx-auto">
@@ -12,7 +23,8 @@ const Searchbox = ({ onSearch }) => {
           <input
             type="text"
             placeholder="Search..."
-            id="searchInput"
+            value={searchValue}
+            onChange={handleSearchChange}
             className="w-full sm:w-auto mb-2 sm:mb-0 px-4 py-2 border border-gray-300 dark:border-gray-600 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500 dark:bg-gray-800 dark:text-white"
           />
           <div className="flex flex-wrap gap-2">
@@ -28,6 +40,8 @@ const Searchbox = ({ onSearch }) => {
             </select>
             <select
               id="monthSelect"
+              value={selectedMonth}
+              onChange={handleMonthSelect}
               className="w-full sm:w-auto mb-2 sm:mb-0 px-4 py-2 border border-gray-300 dark:border-gray-600 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500 dark:bg-gray-800 dark:text-white"
             >
               <option value="">All Dates</option>
@@ -52,11 +66,6 @@ const Searchbox = ({ onSearch }) => {
               <option value="internship">Internship</option>
               <option value="conference">Conference</option>
             </select>
-            <button
-              className="w-full sm:w-auto bg-blue-500 dark:bg-blue-700 text-white py-2 px-4 rounded-md hover:bg-blue-600 dark:hover:bg-blue-800 focus:outline-none focus:ring-2 focus:ring-blue-500"
-            >
-              Search
-            </button>
           </div>
         </div>
       </div>
