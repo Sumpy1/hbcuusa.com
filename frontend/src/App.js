@@ -8,6 +8,7 @@ import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import Signup from './pages/Signup';
 import Navbar from './components/Navbar';
 import Map from './components/Map';
+import Experience from './pages/Experience';
 
 
 
@@ -24,6 +25,7 @@ export default function App() {
                     <Route path="/" element={<Home />} /> 
                     <Route path="/hbcu" element={<Hbcu />} /> 
                     <Route path="/map" element={<Map />} /> 
+                    <Route path="/experience" element={<Experience />} /> 
                 </Routes>
             
              

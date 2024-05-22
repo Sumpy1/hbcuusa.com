@@ -46,7 +46,12 @@ export default function Home() {
         "dark:bg-gray-900",
         "p-4",
         "rounded-md",
-        "shadow-md"
+        "shadow-md",
+        "border-2",
+        "hover:border-gradient",
+        "transition-all",
+        "duration-300",
+        "ease-in-out"
       );
 
       opportunity.innerHTML = `
@@ -76,7 +81,7 @@ export default function Home() {
 
       <main className="flex-1 bg-gray-100 dark:bg-gray-800 min-h-screen font-body">
         <div className="container mx-auto">
-          <section className="opportunities overflow-x bg-gray-100 dark:bg-gray-800">
+          <section className="opportunities overflow-x bg-gradient-to-r from-pink-500 via-purple-500 to-blue-500 dark:bg-gray-800 p-4 rounded-lg">
             <div className="opportunity-header flex justify-between items-center mb-4 dark:text-white">
               <span>Programs</span>
               <span>Application opens</span>

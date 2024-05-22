@@ -13,6 +13,9 @@ export default function Home() {
         const rows = data.split('\n');
         const tableBody = document.querySelector('#universityTable tbody');
 
+        // Clear the table body to prevent duplicate data
+        tableBody.innerHTML = '';
+
         let rowNumber = 1;
         for (let i = 1; i < rows.length; i++) {
           const columns = rows[i].split(',');
@@ -53,11 +56,11 @@ export default function Home() {
     }
 
     fetchCsvData();
-  }, []);
+  }, []); // Add an empty dependency array
 
   return (
     <>
-    <Map />
+      <Map />
       <main className="flex-1 bg-gray-100 dark:bg-gray-800 p-8 font-body">
         <h1 className="text-2xl font-bold mb-4 dark:text-white">HBCU Universities Database</h1>
 
@@ -69,8 +72,7 @@ export default function Home() {
               <th className="px-4 py-2">URL</th>
             </tr>
           </thead>
-          <tbody>
-          </tbody>
+          <tbody></tbody>
         </table>
       </main>
 

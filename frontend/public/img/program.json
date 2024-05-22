@@ -1,9 +1,27 @@
 [
     {
-        "name": "Meta Scholars Program",
-        "description": "The Meta Scholars Program is a competitive program that provides scholarships, internships, and mentorship opportunities for HBCU students.",
-        "applicationMonth": "January",
-        "applicationLink": "https://whosnext.tmcf.org/jobs"
+        "name": "CocaCola HBCU SOAR Scholar ",
+        "description": "",
+        "applicationMonth": "March",
+        "applicationLink": "https://cokeconsolidatedhbcusoar.com/?li_fat_id=3ef68cce-8dca-40ba-9331-f5d398716b20"
+    },
+    {
+        "name": "Atlanta Falcons + Wells Fargo HBCU Fellowship",
+        "description": "",
+        "applicationMonth": "February",
+        "applicationLink": "https://www.atlantafalcons.com/community/hbcu-fellowship-program"
+    },
+     {
+        "name": "Codepath and AmazonNext",
+        "description": "",
+        "applicationMonth": "April",
+        "applicationLink": "https://info.codepath.org/amazon"
+    },
+    {
+        "name": "Salesforce Tech Summit",
+        "description": "Salesforce tech summit allows you to learn about the latest technology trends and network with industry professionals and you also get an opportunity to interview for internships and full-time positions",
+        "applicationMonth": "May",
+        "applicationLink": "https://careers.salesforce.com/en/jobs/jr252504/2024-futureforce-tech-equality-summit-summer-2025-intern/"
     },
     {
         "name": "Google STEP Program",
@@ -58,12 +76,6 @@
         "description": "",
         "applicationMonth": "January",
         "applicationLink": "https://newtechnologists.com/apply.html"
-    },
-    {
-        "name": "Soar HBCU",
-        "description": "",
-        "applicationMonth": "February",
-        "applicationLink": "https://cokeconsolidatedhbcusoar.com/?li_fat_id=3ef68cce-8dca-40ba-9331-f5d398716b20"
     },
     {
         "name": "NBA HBCU Fellowship",
