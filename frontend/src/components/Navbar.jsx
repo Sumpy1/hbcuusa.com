@@ -28,7 +28,8 @@ const Navbar = () => {
       <div className="container mx-auto flex justify-between items-center">
         <div className="logo-container">
           <Link to="/">
-            <img src="img/logo-no-background.png" alt="Your Logo" className="h-8" />
+            {/* <img src="img/logoo.png" alt="Your Logo" className="h-8" /> */}
+            <span className="text-2xl font-bold text-white">Catalyst</span>
           </Link>
         </div>
 

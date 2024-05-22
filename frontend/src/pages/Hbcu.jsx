@@ -78,7 +78,7 @@ export default function Home() {
 
       <footer className="bg-blue-800 dark:bg-gray-900 text-white py-4 mt-4">
         <div className="container mx-auto text-center">
-          <p>&copy;2024 Copyright: All Rights Reserved by HBCUUSA.com</p>
+          <p>&copy;2024 Copyright: All Rights Reserved by Catalyst.com</p>
         </div>
       </footer>
     </>
