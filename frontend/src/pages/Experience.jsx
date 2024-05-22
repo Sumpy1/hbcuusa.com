@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 
 const videos = [
-  { id: 1, src: '/img/Video1.mp4', thumbnail: '/img/pitch.png', title: 'TMCF The pitch' },
+  { id: 1, src: '/img/Video1.MOV', thumbnail: '/img/pitch.png', title: 'TMCF The pitch' },
   { id: 2, src: '/videos/video2.mp4', thumbnail: '/img/coke.png', title: 'HBCU SOAR Externship' },
 ];
 
