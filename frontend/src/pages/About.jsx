@@ -16,13 +16,13 @@ export default function About() {
 
             <div className="p-8">
               <h2 className="text-2xl font-bold mb-4 dark:text-white">
-                Welcome to Catalyst: A HBCU & MSI Initiatives
+                Welcome to HBCUUSA: A HBCU & MSI Initiatives
               </h2>
               <p className="text-gray-700 dark:text-gray-300">
                 Do you want to take advantage of opportunities and get industry-based experience during your college? Do you see your friends' posts about getting external scholarships and wonder where they applied from?
               </p>
               <p className="text-gray-700 dark:text-gray-300 mt-4">
-                Catalyst is a community for all the HBCU and MSI students where you can apply to all the CSR, internship, fellowships programs opened at that specific time. We are dedicated to showcasing Corporate Social Responsibility (CSR) initiatives and providing information about fellowships specifically aimed at students of Historically Black Colleges and Universities (HBCU) and Minority-Serving Institutions (MSI). Our platform aims to connect students with opportunities that promote diversity, inclusion, and social impact.
+                HBCUUSA is a community for all the HBCU and MSI students where you can apply to all the CSR, internship, fellowships programs opened at that specific time. We are dedicated to showcasing Corporate Social Responsibility (CSR) initiatives and providing information about fellowships specifically aimed at students of Historically Black Colleges and Universities (HBCU) and Minority-Serving Institutions (MSI). Our platform aims to connect students with opportunities that promote diversity, inclusion, and social impact.
               </p>
             </div>
           </section>
@@ -44,7 +44,7 @@ export default function About() {
 
         <footer className="bg-blue-800 dark:bg-gray-900 text-white py-4">
           <div className="container mx-auto text-center">
-            <p>&copy;2024 Copyright: All Rights Reserved by Catalyst.com</p>
+            <p>&copy;2024 Copyright: All Rights Reserved by HBCUUSA</p>
           </div>
         </footer>
       </div>
